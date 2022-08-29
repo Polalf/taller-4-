@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public int bullets = 10;
+
     void Start()
     {
         
