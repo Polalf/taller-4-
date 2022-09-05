@@ -44,14 +44,14 @@ public class player : MonoBehaviour
 
         // disparo
         if(Input.GetButtonDown("Fire1"))
-        {
-
+        {          
+            Shoot();
         }
      
     }
     private void Shoot()
     {
-        //Instantiate(bullet, shootctrl )
+        Instantiate(bullet, shootctrl.position, shootctrl.rotation);
     }
                 
     
